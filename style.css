@@ -1,0 +1,170 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* Navbar */
+.navbar {
+  position: absolute;
+  left: 83vw;
+  width: 20%;
+  height: 10%;
+  top: 4vh;
+}
+
+.gApps {
+  position: absolute;
+  width: 1.5vw;
+  height: 3vh;
+  top: 0vh;
+  left: 9vw;
+}
+
+.profile_pic {
+  position: absolute;
+  width: 3vw;
+  height: 6vh;
+  left: 12vw;
+  top: -2vh;
+}
+
+.google_names {
+  font-size: 1em;
+  padding: 5% 0% 5% 5%;
+}
+
+/* Body */
+.body {
+  position: absolute;
+  width: 100vw;
+  height: 60vh;
+  top: 10vh;
+  margin-left: -1%;
+}
+
+.gglLogo {
+  position: absolute;
+  left: 41vw;
+  top: 20vh;
+}
+
+.searchIcon {
+  width: 1.5%;
+  position: absolute;
+  top: 36.5vh;
+  left: 31vw;
+  filter: contrast(0.1);
+  z-index: 1;
+}
+
+.searchBar {
+  position: absolute;
+  width: 40vw;
+  height: 6vh;
+  border-radius: 25px;
+  border: 1px solid #e1e1e1;
+  top: 35vh;
+  left: 30vw;
+}
+
+.searchBar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.micIcon {
+  position: absolute;
+  top: 36.5vh;
+  left: 67.5vw;
+  width: 1%;
+}
+
+.btn1 {
+  position: absolute;
+  top: 45vh;
+  left: 80vh;
+  width: 10vw;
+  height: 5vh;
+  background-color: #eee;
+  border-bottom-color: #c0c0c0;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #3b3b3b;
+}
+
+.btn2 {
+  position: absolute;
+  top: 45vh;
+  left: 102vh;
+  width: 10vw;
+  height: 5vh;
+  background-color: #eee;
+  border-bottom-color: #c0c0c0;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #3b3b3b;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+/* footer */
+
+footer {
+  width: 100vw;
+  position: absolute;
+  height: 13vh;
+  background-color: #eeeeee;
+  bottom: 0%;
+  margin-left: -1%;
+}
+
+.btm1 {
+  position: absolute;
+  width: 100vw;
+  padding: 1%;
+  border: 1px solid lightslategray;
+  color: lightslategray;
+}
+
+.btm2 {
+  position: absolute;
+  bottom: -1%;
+  width: 100vw;
+}
+.sect1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 0vh;
+}
+
+.sect1 a {
+  padding: 1%;
+  color: lightslategray;
+}
+.sect2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 0%;
+  margin-left: 83vw;
+}
+
+.sect2 a {
+  padding: 1%;
+  color: lightslategray;
+}
